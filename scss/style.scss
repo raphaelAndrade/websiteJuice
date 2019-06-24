@@ -284,6 +284,10 @@ header {
     top: -0.3125rem;
     -webkit-transition:  0.5s; /* Safari prior 6.1 */
     transition:  0.5s;
+    .closeMenuMobile {
+        cursor: pointer;
+        font-weight: bold;
+    }
     .mainMenuMobile {
         li {
             width: 100%;
