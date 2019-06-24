@@ -114,32 +114,23 @@ a{
     height: 3.125rem;
     text-align: center;
     line-height: 3.125rem;
-    margin-top: 2.3125rem; 
-}
-.primaryButtom {
-    background: #ff5e48;
-    color: white;
-    -webkit-transition:  0.3s; /* Safari prior 6.1 */
-          transition:  0.3s; 
-    &:hover {
-        color: white !important;
-        text-decoration: none !important;
-        background: #cc3520;
-    }
-}
-.secondayButtom {
+    margin-top: 2.3125rem;
     background: transparent;
+    width: 12.625rem;
     color: #ff5e48;
     border: 1px solid #ff5e48;
     margin: 2.3125rem auto;
     -webkit-transition:  0.3s; /* Safari prior 6.1 */
-          transition:  0.3s; 
+    transition:  0.3s;
+    font-weight: bold;
     &:hover {
-        color: #cc3520 !important;
-        background: white;
-        text-decoration: none !important
-        ;
+        background: #ff5e48;
+        color: white;
+        -webkit-transition:  0.3s; /* Safari prior 6.1 */
+        transition:  0.3s;
+        text-decoration: none; 
     }
+
 }
 
 /*HEADER CLASSES*/
@@ -177,6 +168,8 @@ header {
         text-align: left;
         margin-top: 3.4375rem;
     }
+
+    .generalButtom {margin: 2.375rem 0}
 
     //FULL MENU
     .containerFullMenu {
