@@ -8,7 +8,7 @@
 function closeMenu() {
    $('.full-menu').removeClass('openMenu')
 }
-
+//CLOSE MENU MOBILE
 function closeMenuMobile() {
    $('.full-menu-mobile').removeClass('openMenuMobile')
 }
